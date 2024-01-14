@@ -14,6 +14,8 @@ const cidv1 = CID.create(1, code, hash)
 
 console.log("\nhash")
 console.log(hash)
+console.log(Buffer.from(hash.digest).toString('hex'))
+console.log(Buffer.from(hash.bytes).toString('hex'))
 console.log("\nvalue")
 console.log(value)
 console.log("\ndata")
