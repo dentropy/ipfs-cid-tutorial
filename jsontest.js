@@ -3,7 +3,7 @@ import { CID } from 'multiformats'
 import { sha256 } from 'multiformats/hashes/sha2'
 
 import * as dagPB from '@ipld/dag-pb'
-import { code } from 'multiformats/codecs/raw'
+import { code } from 'multiformats/codecs/json'
 
 const obj = {
   x: 1,
