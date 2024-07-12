@@ -31,6 +31,9 @@ console.log(cidv0)
 console.log("\ncidv1")
 console.log(cidv1)
 
+console.log("\n\nEncoded DAG-JSON")
+console.log(JSON.stringify(encoded, null, 2))
+
 // let decoded = decode(encoded)
 // decoded.y[0] // 2
 // let test_var = CID.asCID(decoded.z.a) // cid instance
